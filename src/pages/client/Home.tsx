@@ -8,7 +8,7 @@ import { useEffect } from "react";
 
 const Home = () => {
   useEffect(() => {
-    document.title = "Home - HGTR";
+    document.title = "Jerico Niño | Portfolio";
     AOS.init({
       once: true,
     });

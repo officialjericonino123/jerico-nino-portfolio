@@ -35,7 +35,7 @@ const SideNav: React.FC<SideNavProps> = ({ onClose }) => {
           Home
         </Link>
         <Link onClick={toggleShopEnter} to="#" className="text-white">
-          Shop
+          Projects
         </Link>
 
         {/* SHOP DROPDOWN */}

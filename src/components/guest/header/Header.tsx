@@ -76,7 +76,7 @@ const Header = () => {
               onClick={handleClick}
               className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
             >
-              Portfolio
+              Projects
             </Link>
             {/* MEGA DROPDOWN */}
             {isDropDown && (
