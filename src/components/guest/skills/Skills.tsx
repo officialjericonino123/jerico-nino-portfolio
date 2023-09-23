@@ -1,0 +1,159 @@
+import {
+  FaPencil,
+  FaCode,
+  FaToolbox,
+  FaThumbsUp,
+  FaScrewdriverWrench,
+  FaFileShield,
+} from "react-icons/fa6";
+
+const Skills = () => {
+  return (
+    <>
+      <div className="px-[50px] md:p-[100px]">
+        <div className="flex flex-col text-white text-center lg:items-start">
+          <span className="font-[Montserrat] text-[1rem] md:text-[1.5rem] uppercase">
+            My services
+          </span>
+          <span className="font-RacingSans text-[2rem] md:text-[2.5rem] lg:text-[3rem] font-[800] uppercase">
+            What can i do?
+          </span>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 mt-[50px] gap-[50px]">
+          <div className="flex flex-col justify-center items-center w-full p-[30px] border-[1px] gap-[30px] rounded-md hover:scale-[1.1] hover:bg-[#f12020] hover:border-[#f12020] hover:bg-opacity-50 duration-300">
+            <div className="text-white text-[2rem] md:text-[4rem]">
+              <FaPencil />
+            </div>
+            <div className="text-center text-white">
+              <span className="font-RacingSans uppercase font-[700] md:text-[1.5rem]">
+                Creative and Responsive Design
+              </span>
+            </div>
+            <div className="text-center text-white font-[Montserrat]">
+              <span>
+                I specialize in the development of responsive designs that
+                consistently uphold their visual allure and functional integrity
+                across a spectrum of devices. In tandem, my established
+                proficiency lies in seamlessly infusing these designs with a
+                distinct and innovative character. This harmonious blend of
+                skills ensures an unparalleled user experience while
+                simultaneously elevating the creative and impactful essence of
+                your visual content.
+              </span>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center items-center w-full p-[30px] border-[1px] gap-[30px] rounded-md hover:scale-[1.1] hover:bg-[#f12020] hover:border-[#f12020] hover:bg-opacity-50 duration-300">
+            <div className="text-white text-[2rem] md:text-[4rem]">
+              <FaCode />
+            </div>
+            <div className="text-center text-white">
+              <span className="font-RacingSans uppercase font-[700] md:text-[1.5rem]">
+                Clean Code
+              </span>
+            </div>
+            <div className="text-center text-white font-[Montserrat]">
+              <span>
+                I'm really good at writing clean code. It means I focus on
+                making sure the code is neat, easy to read, and follows best
+                practices in software development. It's important to me to keep
+                the code in good shape so that it's easy for others to
+                understand and work with in the future.
+              </span>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center items-center w-full p-[30px] border-[1px] gap-[30px] rounded-md hover:scale-[1.1] hover:bg-[#f12020] hover:border-[#f12020] hover:bg-opacity-50 duration-300">
+            <div className="text-white text-[2rem] md:text-[4rem]">
+              <FaToolbox />
+            </div>
+            <div className="text-center text-white">
+              <span className="font-RacingSans uppercase font-[700] md:text-[1.5rem]">
+                User Experience
+              </span>
+            </div>
+            <div className="text-center text-white font-[Montserrat]">
+              <span>
+                I always maintain high coding standards in my projects to ensure
+                an outstanding user experience. This means I focus on creating
+                software that works well, is easy to use, thoroughly tested, and
+                continuously improved. My goal is to consistently exceed user
+                expectations and set a high standard of quality in everything I
+                do.
+              </span>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center items-center w-full p-[30px] border-[1px] gap-[30px] rounded-md hover:scale-[1.1] hover:bg-[#f12020] hover:border-[#f12020] hover:bg-opacity-50 duration-300">
+            <div className="text-white text-[2rem] md:text-[4rem]">
+              <FaThumbsUp />
+            </div>
+            <div className="text-center text-white">
+              <span className="font-RacingSans uppercase font-[700] md:text-[1.5rem]">
+                Fast Support
+              </span>
+            </div>
+            <div className="text-center text-white font-[Montserrat]">
+              <span>
+                I have a strong technical support system in place to help my
+                clients quickly and effectively. Our dedicated team is
+                well-prepared to handle inquiries, solve problems, and provide
+                expert guidance, ensuring minimal downtime and top-notch
+                assistance. Our commitment to fast and reliable support
+                underscores our dedication to client satisfaction and delivering
+                exceptional service.
+              </span>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center items-center w-full p-[30px] border-[1px] gap-[30px] rounded-md hover:scale-[1.1] hover:bg-[#f12020] hover:border-[#f12020] hover:bg-opacity-50 duration-300">
+            <div className="text-white text-[2rem] md:text-[4rem]">
+              <FaScrewdriverWrench />
+            </div>
+            <div className="text-center text-white">
+              <span className="font-RacingSans uppercase font-[700] md:text-[1.5rem]">
+                Hardware troubleshooting
+              </span>
+            </div>
+            <div className="text-center text-white font-[Montserrat]">
+              <span>
+                I have extensive computer repair skills that can effectively
+                tackle various complex technical issues. These skills have been
+                developed over time through hands-on experience and cover
+                troubleshooting, diagnostics, and system optimization. I'm
+                well-equipped to handle a wide range of technical challenges and
+                ensure systems run smoothly. My commitment to staying updated
+                with industry advancements underscores my dedication to
+                providing top-notch technical support and solutions.
+              </span>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center items-center w-full p-[30px] border-[1px] gap-[30px] rounded-md hover:scale-[1.1] hover:bg-[#f12020] hover:border-[#f12020] hover:bg-opacity-50 duration-300">
+            <div className="text-white text-[2rem] md:text-[4rem]">
+              <FaFileShield />
+            </div>
+            <div className="text-center text-white">
+              <span className="font-RacingSans uppercase font-[700] md:text-[1.5rem]">
+                Data Security
+              </span>
+            </div>
+            <div className="text-center text-white font-[Montserrat]">
+              <span>
+                I possess strong data security skills that can effectively
+                protect our clients' important information. My expertise
+                includes encryption, access control, and threat detection. I am
+                committed to staying updated with the latest security practices
+                to ensure data safety. Rest assured, your data is in capable
+                hands.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Skills;

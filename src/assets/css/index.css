@@ -1,0 +1,10 @@
+/* RACING SANS */
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+/* PERMANENT MARKER */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* ALUMNI SANS */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100;200;300;400;500;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
