@@ -10,6 +10,7 @@ interface SideNavProps {
 }
 
 const SideNav: React.FC<SideNavProps> = ({ onClose }) => {
+  
   const handleLinkClicked = () => {
     onClose();
   };
@@ -26,7 +27,7 @@ const SideNav: React.FC<SideNavProps> = ({ onClose }) => {
     <div className="fixed w-[300px] sm:w-[500px] md:w-[600px] lg:hidden h-[100%] inset-0 bg-black z-20 p-[20px] overflow-y-scroll">
       <div className="flex justify-center text-white">
         <Link to="/jerico-nino-portfolio/">
-          <img src={Logo} alt="Logo" className="w-[150px]" />
+          <img src={Logo} alt="Logo" onClick={handleLinkClicked} className="w-[150px]" />
         </Link>
       </div>
 
