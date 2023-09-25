@@ -47,18 +47,21 @@ const SideNav: React.FC<SideNavProps> = ({ onClose }) => {
               </span>
               <Link
                 to="/jerico-nino-portfolio/hgtr"
+                onClick={handleLinkClicked}
                 className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
               >
                 Hugotero Clothing
               </Link>
               <Link
                 to="/jerico-nino-portfolio/kittly"
+                onClick={handleLinkClicked}
                 className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
               >
                 Kittly
               </Link>
               <Link
                 to="#"
+                onClick={handleLinkClicked}
                 className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
               >
                 L&C Group of Companies
@@ -68,12 +71,14 @@ const SideNav: React.FC<SideNavProps> = ({ onClose }) => {
         )}
         <Link
           to="/jerico-nino-portfolio/services"
+          onClick={handleLinkClicked}
           className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
         >
           Services
         </Link>
         <Link
           to="/jerico-nino-portfolio/about"
+          onClick={handleLinkClicked}
           className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
         >
           About
@@ -82,6 +87,7 @@ const SideNav: React.FC<SideNavProps> = ({ onClose }) => {
           to={Resume}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleLinkClicked}
           className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
         >
           CV
