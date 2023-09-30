@@ -106,10 +106,6 @@ const Footer: React.FC = () => {
             Designed and Developed By :{" "}
             <Link to="#" className="decoration-solid hover:text-[#f12020]">
               Jerico U. Niño
-            </Link>{" "}
-            &{" "}
-            <Link to="#" className="decoration-solid hover:text-[#f12020]">
-              Andre Causing
             </Link>
           </span>
         </div>

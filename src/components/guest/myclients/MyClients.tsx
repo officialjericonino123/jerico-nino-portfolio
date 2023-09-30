@@ -1,4 +1,4 @@
-import hgtr from "../../../assets/images/img/HGTR LOGO 3.png";
+import hgtr from "../../../assets/images/img/HGTRPROJ.png";
 import kittly from "../../../assets/images/img/kittly logo.png";
 import LC from "../../../assets/images/img/LCLOGO1.png";
 
@@ -17,7 +17,7 @@ const MyClients = () => {
         <div className="flex flex-col md:flex-row justify-center items-center md:justify-evenly md:items-center gap-[30px] mt-[50px]">
           <Link to="/jerico-nino-portfolio/hgtr">
             <div className="flex flex-col justify-center items-center hover:-translate-y-6 duration-300 cursor-pointer">
-              <img src={hgtr} alt="" className="md:w-[300px]" />
+              <img src={hgtr} alt="" className="md:w-[600px]" />
               <span className="text-white font-[Montserrat] uppercase lg:text-[1.2rem]">
                 Hugotero Clothing
               </span>
