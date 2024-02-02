@@ -7,6 +7,7 @@ export default {
       PermanentMarker: ["Permanent Marker", "cursive"],
       RacingSans: ["Racing Sans One", "cursive"],
       AlumniSans: ["Alumni Sans", "sans-serif"],
+      Inter: ["Inter", "sans-serif"],
     },
   },
   plugins: [],

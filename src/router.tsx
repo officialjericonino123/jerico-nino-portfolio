@@ -9,13 +9,10 @@ import NotFound from "./components/not-found/NotFound";
 
 // Client Pages
 import Home from "./pages/client/Home";
+import Projects from "./pages/client/Projects";
 import Services from "./pages/client/Services";
 import About from "./pages/client/About";
 import Cv from "./pages/client/Cv";
-
-// PRODUCTS
-import HugoteroClothing from "./pages/client/products/Portfolio/Hugotero";
-import Kittly from "./pages/client/products/Portfolio/Kittly";
 
 
 interface RouteConfig {
@@ -36,6 +33,10 @@ const routerConfig: Record<string, RouteConfig[]> = {
           element: <Home />,
         },
         {
+          path: "/jerico-nino-portfolio/projects",
+          element: <Projects />,
+        },
+        {
           path: "/jerico-nino-portfolio/services",
           element: <Services />,
         },
@@ -46,16 +47,6 @@ const routerConfig: Record<string, RouteConfig[]> = {
         {
           path: "/jerico-nino-portfolio/cv",
           element: <Cv />,
-        },
-
-        // PRODUCTS
-        {
-          path: "/jerico-nino-portfolio/hgtr",
-          element: <HugoteroClothing />,
-        },
-        {
-          path: "/jerico-nino-portfolio/kittly",
-          element: <Kittly />,
         },
         {
           path: "*", // Wildcard for unmatched routes

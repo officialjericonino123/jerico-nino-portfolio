@@ -7,7 +7,7 @@ const ClientLayout = () => {
     <>
       <Header />
 
-      <main className="overflow-hidden] bg-stone-900">
+      <main className="overflow-hidden">
         <Outlet />
       </main>
       

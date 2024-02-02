@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../../assets/images/img/Logo/Artboard 1.png";
 // import { IconContext } from "react-icons";
-import Resume from "../../../assets/jerico-u.-niño.pdf";
+import CV from "../../../assets/NIÑO-CV-NOVA-2024.pdf";
 
 // CLOSING SIDE NAV WHEN CLICKING LINKS
 interface SideNavProps {
@@ -85,7 +85,7 @@ const SideNav: React.FC<SideNavProps> = ({ onClose }) => {
           About
         </Link>
         <Link
-          to={Resume}
+          to={CV}
           target="_blank"
           rel="noopener noreferrer"
           onClick={handleLinkClicked}

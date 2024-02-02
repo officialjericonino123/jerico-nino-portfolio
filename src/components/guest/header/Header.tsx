@@ -1,21 +1,14 @@
 import { Link, useLocation } from "react-router-dom";
-import { useState, useEffect  } from "react";
-import {FaBars } from "react-icons/fa6";
+import { useState, useEffect } from "react";
+import { FaBars } from "react-icons/fa6";
 import SideNav from "../../../components/guest/sidenav/SideNav";
-// import SideCart from "../../../components/guest/sidecart/SideCart";
-import Resume from "../../../assets/jerico-u.-niño.pdf";
-import Logo from "../../../assets/images/img/Logo/Artboard 1.png"
+import CV from "../../../assets/NIÑO-CV-NOVA-2024.pdf";
 
 import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/montserrat/400.css"; // Specify weight
 import "@fontsource/montserrat/400-italic.css"; // Specify weight and style
 
-// import { UserContext } from "../../../context/AuthContext";
-
 const Header = () => {
-  // const { user } = useContext(UserContext); // Make sure UserContext is imported and properly set up
-  // DROPDOWN
-  const [isDropDown, setDropDown] = useState(false);
   // HUMBERGER TOGGLE
   const [ishamburgerToggle, setHamburgerToggle] = useState(false);
   // // SIDECART OPEN
@@ -25,15 +18,6 @@ const Header = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
-
-  const handleClick = () => {
-    setDropDown(!isDropDown);
-  };
-
-  const closeDropdown = () => {
-    setDropDown(false);
-  };
-
 
   // BODY OVER FLOW HIDDEN
   useEffect(() => {
@@ -59,78 +43,46 @@ const Header = () => {
   return (
     <>
       <header className="absolute top-0 z-50 w-full font-[Montserrat] font-[500]">
-        <nav className="flex justify-evenly items-center p-5 uppercase font-semibold bg-black text-stone-500 h-[100px]">
-          <Link to="/" onClick={closeDropdown}>
-            <img src={Logo} alt="Logo" className="w-[150px]"/>
-          </Link>
-          <div className="hidden lg:flex gap-[20px]">
+        <nav className="flex justify-start lg:justify-evenly items-center p-5 uppercase font-semibold bg-transparent text-[#222831] font-Inter h-[100px]">
+          <div className="flex justify-start">
+            <Link to="/">
+              {/* <img src={Logo} alt="Logo" className="w-[150px]"/> */}
+              <h1 className="text-[2.5rem] font-bold text-[#222831] md:text-[#EEEEEE] hover:text-[#00ADB5] duration-500 ease-in-out">{"<J/>"}</h1>
+            </Link>
+          </div>
+          <div className="hidden lg:flex gap-[20px] font-bold">
             <Link
               to="/jerico-nino-portfolio/"
-              onClick={closeDropdown}
-              className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
+              className="text-base hover:text-[#00ADB5] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
             >
               Home
             </Link>
             <Link
-              to="#"
-              onClick={handleClick}
-              className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
+              to="/jerico-nino-portfolio/projects"
+              className="text-base hover:text-[#00ADB5] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
             >
               Projects
             </Link>
-            {/* MEGA DROPDOWN */}
-            {isDropDown && (
-              <div className="lg:absolute lg:top-[90px] lg:left-[350px] xl:left-[600px] 2xl:left-[950px] right-0 w-[500px] h-auto bg-black rounded-[20px] pb-[20px]">
-                <div className="flex justify-center mt-[50px] p-[10px]">
-                  <div className="flex flex-col text-center gap-[20px]">
-                    <span className="text-[2.5rem] font-[600] text-white font-RacingSans">
-                      Projects
-                    </span>
-                    <Link
-                      to="/jerico-nino-portfolio/hgtr"
-                      onClick={closeDropdown}
-                      className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
-                    >
-                      Hugotero Clothing
-                    </Link>
-                    <Link
-                      to="/jerico-nino-portfolio/kittly"
-                      onClick={closeDropdown}
-                      className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
-                    >
-                      Kittly
-                    </Link>
-                    <Link
-                      to="/minimalist-tees"
-                      onClick={closeDropdown}
-                      className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
-                    >
-                      L&C Group of Companies
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            )}
             <Link
               to="/jerico-nino-portfolio/services"
-              onClick={closeDropdown}
-              className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
+            
+              className="text-base hover:text-[#00ADB5] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
             >
               Services
             </Link>
             <Link
               to="/jerico-nino-portfolio/about"
-              onClick={closeDropdown}
-              className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
+            
+              className="text-base hover:text-[#00ADB5] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
             >
               About
             </Link>
             <Link
-              to={Resume}
+              to={CV}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={closeDropdown}
-              className="text-base hover:text-white transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
+            
+              className="text-base hover:text-[#00ADB5] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
             >
               CV
             </Link>
@@ -139,7 +91,7 @@ const Header = () => {
           {/* hamburger */}
           <button
             onClick={HamburgerToggle}
-            className="absolute top-[33px] right-[30px] lg:hidden text-[1.5rem] text-white"
+            className="absolute top-[33px] right-[30px] lg:hidden text-[1.5rem] md:text-[#222831] hover:text-[#00ADB5] duration-1000 ease-in-out hover:animate-bounce"
           >
             <FaBars />
           </button>
@@ -150,7 +102,7 @@ const Header = () => {
 
           {/* <div className="hidden lg:flex justify-center items-center gap-[10px]">
             {user.role === "" && !user.status && (
-              <Link to="/login" onClick={closeDropdown}>
+              <Link to="/login">
                 <button className="border-2 p-[10px] rounded-[10px] uppercase hover:text-white transition duration-300 ease-in-out hover:bg-zinc-900 hover:scale-[1.1]">
                   Login
                 </button>
