@@ -1,10 +1,11 @@
 import Carousel from "../../components/guest/carousel/Carousel";
 import AboutMeHome from "../../components/guest/aboutmehome/AboutMeHome";
-import Skills from "../../components/guest/skills/Skills";
 import MyClients from "../../components/guest/myclients/MyClients";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import ProjectsComponentContent from "../../components/guest/projectsComponent/ProjectsComponentContent";
+import ServicesComponentContent from "../../components/guest/servicesComponent/ServicesComponentContent";
 
 const Home = () => {
   useEffect(() => {
@@ -17,7 +18,8 @@ const Home = () => {
     <>
       <Carousel />
       <AboutMeHome />
-      <Skills />
+      <ProjectsComponentContent />
+      <ServicesComponentContent/>
       <MyClients />
     </>
   );

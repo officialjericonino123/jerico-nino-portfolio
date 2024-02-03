@@ -43,37 +43,36 @@ const Header = () => {
   return (
     <>
       <header className="absolute top-0 z-50 w-full font-[Montserrat] font-[500]">
-        <nav className="flex justify-start lg:justify-evenly items-center p-5 uppercase font-semibold bg-transparent text-[#00ADB5] font-Inter h-[100px]">
+        <nav className="flex justify-start lg:justify-evenly items-center p-5 uppercase font-semibold bg-[#00ADB5] text-[#EEEEEE] font-Inter h-[100px]">
           <div className="flex justify-start">
-            <Link to="/">
+            <Link to="/jerico-nino-portfolio/">
               {/* <img src={Logo} alt="Logo" className="w-[150px]"/> */}
-              <h1 className="text-[2.5rem] font-bold text-[#222831] md:text-[#00ADB5] hover:text-[#EEEEEE] duration-500 ease-in-out">{"<J/>"}</h1>
+              <h1 className="text-[2.5rem] font-boldtext-[#EEEEEE] hover:text-[#393E46] duration-500 ease-in-out">{"<J/>"}</h1>
             </Link>
           </div>
           <div className="hidden lg:flex gap-[20px] font-bold">
             <Link
               to="/jerico-nino-portfolio/"
-              className="text-base hover:text-[#EEEEEE] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
+              className="text-base hover:text-[#393E46] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
             >
               Home
             </Link>
             <Link
               to="/jerico-nino-portfolio/projects"
-              className="text-base hover:text-[#EEEEEE] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
+              className="text-base hover:text-[#393E46] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
             >
               Projects
             </Link>
             <Link
               to="/jerico-nino-portfolio/services"
-            
-              className="text-base hover:text-[#EEEEEE] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
+              className="text-base hover:text-[#393E46] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
             >
               Services
             </Link>
             <Link
               to="/jerico-nino-portfolio/about"
             
-              className="text-base hover:text-[#EEEEEE] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
+              className="text-base hover:text-[#393E46] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
             >
               About
             </Link>
@@ -82,7 +81,7 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
             
-              className="text-base hover:text-[#EEEEEE] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
+              className="text-base hover:text-[#393E46] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
             >
               CV
             </Link>
@@ -91,7 +90,7 @@ const Header = () => {
           {/* hamburger */}
           <button
             onClick={HamburgerToggle}
-            className="absolute top-[33px] right-[30px] lg:hidden text-[1.5rem] md:text-[#222831] hover:text-[#EEEEEE] duration-1000 ease-in-out hover:animate-bounce"
+            className="absolute top-[33px] right-[30px] lg:hidden text-[1.5rem] md:text-[#EEEEEE] hover:text-[#393E46] duration-1000 ease-in-out hover:animate-bounce"
           >
             <FaBars />
           </button>

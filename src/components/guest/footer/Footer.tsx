@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import footerLogo from "../../../assets/images/img/Logo/Artboard 1.png";
 import {
   FaPhone,
   FaEnvelope,
@@ -9,6 +8,7 @@ import {
   FaSquareTwitter,
   FaLocationDot,
 } from "react-icons/fa6";
+import CV from "../../../assets/NIÑO-CV-NOVA-2024.pdf";
 
 import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/montserrat/400.css"; // Specify weight
@@ -18,21 +18,54 @@ const Footer: React.FC = () => {
   return (
     <>
       <footer>
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full bg-black font-[Montserrat]">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full bg-[#00ADB5] font-Inter">
           {/* LEFT BOX */}
-          <div className="flex flex-col justify-center items-center p-[20px]">
-            <img src={footerLogo} alt="" className="w-[100px]"/>
-            <div className="flex flex-col justify-center items-center text-white p-[20px] gap-[15px]">
-              <Link to="/" className="text-[1.2rem] font-[Montserrat] hover:text-[#f12020] hover:scale-[1.1] duration-300 uppercase">Home</Link>
-              <Link to="/services" className="text-[1.2rem] font-[Montserrat] hover:text-[#f12020] hover:scale-[1.1] duration-300 uppercase">Services</Link>
-              <Link to="/about" className="text-[1.2rem] font-[Montserrat] hover:text-[#f12020] hover:scale-[1.1] duration-300 uppercase">About </Link>
-              <Link to="/cv" className="text-[1.2rem] font-[Montserrat] hover:text-[#f12020] hover:scale-[1.1] duration-300 uppercase">CV</Link>
+          <div className="flex flex-col lg:items-center p-[20px]">
+            <Link to="/jerico-nino-portfolio/">
+              {/* <img src={Logo} alt="Logo" className="w-[150px]"/> */}
+              <h1 className="text-[2.5rem] font-bold text-[#EEEEEE] hover:text-[#393E46] duration-500 ease-in-out">
+                {"<J/>"}
+              </h1>
+            </Link>
+            <div className="flex flex-col justify-center lg:items-center text-white p-[20px] gap-[15px]">
+              <Link
+                to="/jerico-nino-portfolio/projects"
+                className="hover:text-[#393E46] hover:scale-[1.1] duration-300 uppercase"
+              >
+                Home
+              </Link>
+              <Link
+                to="/jerico-nino-portfolio/projects"
+                className="hover:text-[#393E46] hover:scale-[1.1] duration-300 uppercase"
+              >
+                Projects
+              </Link>
+              <Link
+                to="/jerico-nino-portfolio/services"
+                className="hover:text-[#393E46] hover:scale-[1.1] duration-300 uppercase"
+              >
+                Services
+              </Link>
+              <Link
+                to="/jerico-nino-portfolio/about"
+                className="hover:text-[#393E46] hover:scale-[1.1] duration-300 uppercase"
+              >
+                About{" "}
+              </Link>
+              <Link
+                to={CV}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#393E46] hover:scale-[1.1] duration-300 uppercase"
+              >
+                CV
+              </Link>
             </div>
           </div>
 
           {/* CENTER BOX */}
           <div className="p-[20px]">
-            <h2 className="text-[1.5rem] text-white font-[600] uppercase mb-[30px]">
+            <h2 className="text-[2rem] text-white font-[800] uppercase mb-[30px]">
               Contact Us
             </h2>
             <div className="relative m-[20px 0 0 0]">
@@ -48,7 +81,9 @@ const Footer: React.FC = () => {
                 <span className="text-white m-[10px]">
                   <FaEnvelope />
                 </span>
-                <span className="text-white">official.jericonino@gmail.com</span>
+                <span className="text-white">
+                  official.jericonino@gmail.com
+                </span>
               </div>
             </div>
             <div className="relative m-[20px 0 0 0]">
@@ -57,7 +92,10 @@ const Footer: React.FC = () => {
                   <FaPeopleGroup />
                 </span>
                 <div className="text-[2.5rem] hover:scale-[1.1] duration-300">
-                  <Link to="https://www.facebook.com/eco.nino123" className="text-white">
+                  <Link
+                    to="https://www.facebook.com/eco.nino123"
+                    className="text-white"
+                  >
                     <FaFacebook />
                   </Link>
                 </div>
@@ -77,7 +115,7 @@ const Footer: React.FC = () => {
 
           {/* RIGHT BOX */}
           <div className="p-[20px]">
-            <h2 className="text-[1.5rem] text-white font-[600] uppercase mb-[30px]">
+            <h2 className="text-[2rem] text-white font-[800] uppercase mb-[30px]">
               Location
             </h2>
             <div className="relative m-[20px 0 0 0]">
@@ -101,10 +139,10 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-[30px] bg-[#242526]">
-          <span className="flex justify-center text-white uppercase font-[Montserrat]">
+        <div className="w-full h-[30px] bg-[#393E46]">
+          <span className="flex justify-center text-white uppercase font-Inter">
             Designed and Developed By :{" "}
-            <Link to="#" className="decoration-solid hover:text-[#f12020]">
+            <Link to="#" className="decoration-solid hover:text-[#00ADB5] duration-300">
               Jerico U. Niño
             </Link>
           </span>
