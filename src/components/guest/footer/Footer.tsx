@@ -17,7 +17,7 @@ import "@fontsource/montserrat/400-italic.css"; // Specify weight and style
 const Footer: React.FC = () => {
   return (
     <>
-      <footer>
+      <footer className="mt-[50px]">
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full bg-[#00ADB5] font-Inter">
           {/* LEFT BOX */}
           <div className="flex flex-col lg:items-center p-[20px]">

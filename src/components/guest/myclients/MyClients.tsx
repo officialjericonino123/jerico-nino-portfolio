@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 const MyClients = () => {
   return (
     <>
-      <div className="mt-[50px] px-[50px] md:p-[100px]">
-        <div className="flex flex-col text-[#00ADB5]">
+      <div className="mt-[50px] px-[50px] md:p-[100px] bg-[#00ADB5]">
+        <div className="flex flex-col text-[#EEEEEE]">
           <span className="font-Inter text-[1.2rem] md:text-[2rem] lg:text-[2.5rem] font-[800] uppercase">
             My previous clients
           </span>

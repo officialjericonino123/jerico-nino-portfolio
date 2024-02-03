@@ -67,7 +67,7 @@ const ImageSlider = () => {
         </div>
       </div>
 
-      <div className="hidden 2xl:flex lg:absolute bottom-0 right-[0]">
+      <div className="hidden 2xl:flex lg:absolute bottom-[0] right-[0]">
         <img src={Me} alt="" />
       </div>
     </div>
