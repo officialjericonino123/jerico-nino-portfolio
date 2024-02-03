@@ -7,7 +7,7 @@ const ClientLayout = () => {
     <>
       <Header />
 
-      <main className="overflow-hidden">
+      <main>
         <Outlet />
       </main>
       
