@@ -25,7 +25,7 @@ const Home = () => {
 
         // Save data to localStorage
         localStorage.setItem("homePageData", "true");
-      }, 8000); // Adjust the timeout according to your needs
+      }, 5000); // Adjust the timeout according to your needs
     }
   }, []);
 
