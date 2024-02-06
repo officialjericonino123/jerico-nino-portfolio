@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 // import { IconContext } from "react-icons";
 import CV from "../../../assets/NIÑO-CV-NOVA-2024.pdf";
+import MyLogo from "../../../assets/images/img/MYLOGO3.png"
 
 // CLOSING SIDE NAV WHEN CLICKING LINKS
 interface SideNavProps {
@@ -14,12 +15,10 @@ const SideNav: React.FC<SideNavProps> = ({ onClose }) => {
 
   return (
     <div className="fixed w-[300px] sm:w-[500px] md:w-[600px] lg:hidden h-[100%] inset-0 bg-[#00ADB5] drop-shadow-lg z-20 p-[20px]">
-      <div className="flex justify-center text-white">
+      <div className="flex justify-start">
         <Link to="/jerico-nino-portfolio/">
-          {/* <img src={Logo} alt="Logo" className="w-[150px]"/> */}
-          <h1 className="text-[2.5rem] font-boldtext-[#EEEEEE] hover:text-[#393E46] duration-500 ease-in-out">
-            {"<J/>"}
-          </h1>
+          <img src={MyLogo} alt="Logo" className="w-[200px]" />
+          {/* <h1 className="text-[2.5rem] font-boldtext-[#EEEEEE] hover:text-[#393E46] duration-500 ease-in-out">{"<J/>"}</h1> */}
         </Link>
       </div>
 

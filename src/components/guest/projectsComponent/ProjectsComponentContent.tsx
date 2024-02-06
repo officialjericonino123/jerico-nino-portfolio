@@ -4,10 +4,10 @@ import KittlyProject from "../../../assets/images/img/Projects/KittlyProject.png
 import LCProject from "../../../assets/images/img/Projects/LCProject.png";
 import { Link } from "react-router-dom";
 
-const ProjectsComponentContent:React.FC = () => {
+const ProjectsComponentContent: React.FC = () => {
   return (
     <>
-      <div className="my-[50px] lg:mx-[100px] mx-[20px]">
+      <div className="lg:mt-[50px] lg:mx-[100px] mx-[20px]">
         <Link to="/jerico-nino-portfolio/">
           <div className="w-full flex text-[16px] md:text-[1.1rem] items-center gap-[10px] font-Inter font-bold uppercase text-[#346d70] hover:text-[#00ADB5] duration-500 cursor-pointer">
             <FaArrowLeft />
@@ -15,7 +15,13 @@ const ProjectsComponentContent:React.FC = () => {
           </div>
         </Link>
 
-        <div className="my-[50px] p-[20px]">
+        <div className="text-center font-Inter my-[20px]">
+          <span className="text-[2rem] lg:text-[3rem] font-[800] text-[#00ADB5] uppercase">
+            My Projects
+          </span>
+        </div>
+
+        <div className="my-[20px] p-[20px]">
           {/* HUGOTERO CLOTHING */}
           <div className="relative">
             <img

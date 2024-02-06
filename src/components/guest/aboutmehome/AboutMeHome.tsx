@@ -23,7 +23,7 @@ const AboutMeHome = () => {
             <img
               src={gradimage}
               alt=""
-              className="w-[350px] h-[400px]"
+              className="lg:w-[350px] w-full lg:h-[400px] h-full"
               data-aos="fade-right"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
@@ -40,7 +40,7 @@ const AboutMeHome = () => {
             <span className="uppercase text-[1.5rem] md:text-[2rem] lg:text-[2.2rem] font-[800]">
               about me
             </span>
-            <div className="mt-[40px] text-[.9rem] lg:text-[1rem]">
+            <div className="mt-[40px] text-[.8rem] lg:text-[1rem]">
               <span className="font-Inter font-[400] text-start">
                 Hello, I'm Jerico U. Niño, a front-end developer who specializes
                 in creating user-friendly and visually appealing websites. I use

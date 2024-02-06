@@ -9,6 +9,7 @@ import {
   FaLocationDot,
 } from "react-icons/fa6";
 import CV from "../../../assets/NIÑO-CV-NOVA-2024.pdf";
+import MyLogo from "../../../assets/images/img/MYLOGO3.png";
 
 import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/montserrat/400.css"; // Specify weight
@@ -21,12 +22,12 @@ const Footer: React.FC = () => {
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full bg-[#00ADB5] font-Inter">
           {/* LEFT BOX */}
           <div className="flex flex-col lg:items-center p-[20px]">
-            <Link to="/jerico-nino-portfolio/">
-              {/* <img src={Logo} alt="Logo" className="w-[150px]"/> */}
-              <h1 className="text-[2.5rem] font-bold text-[#EEEEEE] hover:text-[#393E46] duration-500 ease-in-out">
-                {"<J/>"}
-              </h1>
-            </Link>
+            <div className="flex justify-start">
+              <Link to="/jerico-nino-portfolio/">
+                <img src={MyLogo} alt="Logo" className="w-[250px]" />
+                {/* <h1 className="text-[2.5rem] font-boldtext-[#EEEEEE] hover:text-[#393E46] duration-500 ease-in-out">{"<J/>"}</h1> */}
+              </Link>
+            </div>
             <div className="flex flex-col justify-center lg:items-center text-white p-[20px] gap-[15px]">
               <Link
                 to="/jerico-nino-portfolio/projects"
@@ -142,7 +143,10 @@ const Footer: React.FC = () => {
         <div className="w-full h-[30px] bg-[#393E46]">
           <span className="flex justify-center text-white uppercase font-Inter">
             Designed and Developed By :{" "}
-            <Link to="#" className="decoration-solid hover:text-[#00ADB5] duration-300">
+            <Link
+              to="#"
+              className="decoration-solid hover:text-[#00ADB5] duration-300"
+            >
               Jerico U. Niño
             </Link>
           </span>

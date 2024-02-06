@@ -17,7 +17,7 @@ const ImageSlider = () => {
     >
       <div className="grid justify-start w-full p-[20px] font-[700] mt-[100px] mx-[100px] text-white font-Inter">
         <span
-          className="font-[800] uppercase text-[1.5rem] text-[#00acb5d0]"
+          className="font-[800] uppercase text-[1.3rem] lg:text-[1.5rem] text-[#51a2a7] lg:text-white"
           data-aos="fade-right"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
@@ -26,7 +26,7 @@ const ImageSlider = () => {
           Front End Web Developer
         </span>
         <span
-          className="uppercase font-[800] text-[5rem] text-[#48f6ff]"
+          className="uppercase font-[800] text-[5rem] text-[#51a2a7] lg:text-white"
           data-aos="fade-right"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
@@ -35,7 +35,7 @@ const ImageSlider = () => {
           Jerico Niño
         </span>
         <p
-          className="w-full md:w-[500px] font-[700] font-[Montserrat] pb-[30px] text-[#51a2a7] text-[1.2rem] md:text-[1rem]"
+          className="w-full md:w-[500px] font-[500] font-[Montserrat] pb-[30px] text-[#51a2a7] lg:text-white text-[1rem] md:text-[1.2rem]"
           data-aos="fade-right"
           data-aos-duration="3000"
           data-aos-easing="ease-in-out"
@@ -55,12 +55,12 @@ const ImageSlider = () => {
           data-aos-once="true"
         >
           <Link to={CV} target="_blank" rel="noopener noreferrer">
-            <button className="border-[1px] p-[10px] w-full lg:w-[200px] uppercase rounded text-[#00ADB5] border-[#00ADB5] hover:text-white hover:bg-[#00ADB5] hover:border-[#00ADB5] active:bg-[#393E46] active:border-[#393E46] animate-bounce hover:scale-[1.1] duration-500 ease-in-out">
+            <button className="border-[1px] p-[10px] w-full lg:w-[200px] uppercase rounded text-[#00ADB5] lg:text-white border-[#00ADB5] lg:border-white hover:text-white hover:bg-[#00ADB5] hover:border-[#00ADB5] active:bg-[#393E46] active:border-[#393E46] animate-bounce hover:scale-[1.1] duration-500 ease-in-out">
               Curriculum Vitae
             </button>
           </Link>
           <Link to="/jerico-nino-portfolio/projects" rel="noopener noreferrer">
-            <button className="border-[1px] p-[10px] w-full lg:w-[200px] uppercase rounded text-[#00ADB5] border-[#00ADB5] hover:text-white hover:bg-[#00ADB5] hover:border-[#00ADB5] active:bg-[#393E46] active:border-[#393E46] animate-bounce hover:scale-[1.1] duration-500 ease-in-out">
+            <button className="border-[1px] p-[10px] w-full lg:w-[200px] uppercase rounded text-[#00ADB5] lg:text-white border-[#00ADB5] lg:border-white hover:text-white hover:bg-[#00ADB5] hover:border-[#00ADB5] active:bg-[#393E46] active:border-[#393E46] animate-bounce hover:scale-[1.1] duration-500 ease-in-out">
               Projects
             </button>
           </Link>

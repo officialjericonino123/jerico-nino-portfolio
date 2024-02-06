@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa6";
 import SideNav from "../../../components/guest/sidenav/SideNav";
 import CV from "../../../assets/NIÑO-CV-NOVA-2024.pdf";
+import MyLogo from "../../../assets/images/img/MYLOGO3.png"
 
 import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/montserrat/400.css"; // Specify weight
@@ -46,11 +47,11 @@ const Header = () => {
         <nav className="flex justify-start lg:justify-evenly items-center p-5 uppercase font-semibold bg-[#00ADB5] text-[#EEEEEE] font-Inter h-[100px]">
           <div className="flex justify-start">
             <Link to="/jerico-nino-portfolio/">
-              {/* <img src={Logo} alt="Logo" className="w-[150px]"/> */}
-              <h1 className="text-[2.5rem] font-boldtext-[#EEEEEE] hover:text-[#393E46] duration-500 ease-in-out">{"<J/>"}</h1>
+              <img src={MyLogo} alt="Logo" className="w-[200px]"/>
+              {/* <h1 className="text-[2.5rem] font-boldtext-[#EEEEEE] hover:text-[#393E46] duration-500 ease-in-out">{"<J/>"}</h1> */}
             </Link>
           </div>
-          <div className="hidden lg:flex gap-[20px] font-bold">
+          <div className="hidden lg:flex gap-[20px]">
             <Link
               to="/jerico-nino-portfolio/"
               className="text-base hover:text-[#393E46] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
