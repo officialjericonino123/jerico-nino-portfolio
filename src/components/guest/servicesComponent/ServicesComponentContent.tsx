@@ -11,8 +11,16 @@ const ServicesComponentContent: React.FC = () => {
   return (
     <>
       <div className="bg-[#]">
-        <div className="text-center mx-[20px] xl:mx-[500px] font-Inter my-[50px]">
-          <h1 className="text-[2.5rem] lg:text-[3.5rem] xl:text-[4rem] font-[800] text-[#00ADB5]">What I do?</h1>
+        <div
+          className="text-center mx-[20px] xl:mx-[500px] font-Inter my-[50px]"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
+          <h1 className="text-[2.5rem] lg:text-[3.5rem] xl:text-[4rem] font-[800] text-[#00ADB5]">
+            What I do?
+          </h1>
           <p className="text-[#287074] font-[500]">
             In my capacity as a front-end web developer, I specialize in the
             meticulous creation of visually compelling and user-friendly
@@ -20,7 +28,13 @@ const ServicesComponentContent: React.FC = () => {
             experiences.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 2xl:grid-cols-3 mx-[20px] lg:mx-[200px] h-auto py-[20px] gap-[30px]">
+        <div
+          className="grid md:grid-cols-2 2xl:grid-cols-3 mx-[20px] lg:mx-[200px] h-auto py-[20px] gap-[30px]"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <div className="flex flex-col justify-center items-center w-full p-[30px] font-Inter border-[2px] border-[#393E46] gap-[30px] opacity-90 rounded-md hover:-translate-y-6 duration-300">
             <div className="text-[#287074] text-[2rem] md:text-[4rem]">
               <FaPencil />

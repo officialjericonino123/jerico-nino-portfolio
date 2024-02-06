@@ -8,7 +8,13 @@ const MyClients = () => {
   return (
     <>
       <div className="mt-[50px] p-[50px] md:p-[100px] bg-[#00ADB5]">
-        <div className="flex flex-col text-[#EEEEEE] pt-[20px]">
+        <div
+          className="flex flex-col text-[#EEEEEE] pt-[20px]"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <span className="font-Inter text-[1.2rem] md:text-[2rem] lg:text-[2.5rem] font-[800] uppercase">
             My previous clients
           </span>
@@ -16,19 +22,37 @@ const MyClients = () => {
 
         <div className="flex flex-col md:flex-row justify-center items-center md:justify-evenly md:items-center gap-[30px] mt-[50px] text-[#EEEEEE]">
           <Link to="https://hugoteroclothing.com/" target="blank">
-            <div className="flex flex-col justify-center items-center hover:-translate-y-6 duration-300 cursor-pointer">
+            <div
+              className="flex flex-col justify-center items-center hover:-translate-y-6 duration-300 cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+            >
               <img src={hgtr} alt="" className="w-[200px] md:w-[300px]" />
             </div>
           </Link>
 
           <Link to="https://kittlyofficial.com/" target="blank">
-            <div className="flex flex-col justify-center items-center hover:-translate-y-6 duration-300 cursor-pointer">
+            <div
+              className="flex flex-col justify-center items-center hover:-translate-y-6 duration-300 cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+            >
               <img src={kittly} alt="" className="w-[200px] md:w-[300px]" />
             </div>
           </Link>
 
           <Link to="https://lcgroupofcompanies.com/" target="blank">
-            <div className="flex flex-col justify-center items-center hover:-translate-y-6 duration-300 cursor-pointer">
+            <div
+              className="flex flex-col justify-center items-center hover:-translate-y-6 duration-300 cursor-pointer"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+            >
               <img src={LC} alt="" className="w-[200px] md:w-[350px]" />
             </div>
           </Link>
