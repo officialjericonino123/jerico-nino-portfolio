@@ -28,15 +28,15 @@ const ProjectsComponentContent: React.FC = () => {
               src={HgtrProject}
               alt=""
               className="shadow-2xl w-full 2xl:w-[1000px]"
-              data-aos="fade-up"
-              data-aos-duration="1000"
+              data-aos="fade-right"
+              data-aos-duration="2000"
               data-aos-easing="ease-in-out"
               data-aos-once="true"
             />
             <div
               className="2xl:absolute w-full 2xl:w-[800px] 2xl:top-[50%] 2xl:right-[0px]"
-              data-aos="fade-up"
-              data-aos-duration="1000"
+              data-aos="fade-left"
+              data-aos-duration="3000"
               data-aos-easing="ease-in-out"
               data-aos-once="true"
             >
@@ -94,8 +94,8 @@ const ProjectsComponentContent: React.FC = () => {
                 src={KittlyProject}
                 alt=""
                 className="shadow-2xl w-full 2xl:w-[1000px]"
-                data-aos="fade-up"
-                data-aos-duration="1000"
+                data-aos="fade-left"
+                data-aos-duration="2000"
                 data-aos-easing="ease-in-out"
                 data-aos-once="true"
               />
@@ -103,8 +103,8 @@ const ProjectsComponentContent: React.FC = () => {
 
             <div
               className="2xl:absolute w-full 2xl:w-[800px] 2xl:top-[60%] 2xl:left-[0]"
-              data-aos="fade-up"
-              data-aos-duration="1000"
+              data-aos="fade-right"
+              data-aos-duration="3000"
               data-aos-easing="ease-in-out"
               data-aos-once="true"
             >
@@ -161,15 +161,15 @@ const ProjectsComponentContent: React.FC = () => {
               src={LCProject}
               alt=""
               className="shadow-2xl w-full 2xl:w-[1000px] my-[20px] lg:my-[200px]"
-              data-aos="fade-up"
-              data-aos-duration="1000"
+              data-aos="fade-right"
+              data-aos-duration="2000"
               data-aos-easing="ease-in-out"
               data-aos-once="true"
             />
             <div
               className="2xl:absolute w-full 2xl:w-[800px] 2xl:top-[60%] 2xl:right-[0px]"
-              data-aos="fade-up"
-              data-aos-duration="1000"
+              data-aos="fade-left"
+              data-aos-duration="3000"
               data-aos-easing="ease-in-out"
               data-aos-once="true"
             >
