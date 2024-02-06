@@ -31,7 +31,8 @@ const SideNav: React.FC<SideNavProps> = ({ onClose }) => {
           Home
         </Link>
         <Link
-          to="/jerico-nino-portfolio/services"
+          to="/jerico-nino-portfolio/projects"
+          onClick={handleLinkClicked}
           className="text-base hover:text-[#222831] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
         >
           Projects

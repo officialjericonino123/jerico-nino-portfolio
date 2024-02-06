@@ -8,7 +8,7 @@ const AboutComponent: React.FC = () => {
           <div
             className="w-full flex flex-col text-start my-[100px] lg:my-[100px] text-white font-Inter"
             data-aos="fade-right"
-            data-aos-duration="1000"
+            data-aos-duration="2000"
             data-aos-easing="ease-in-out"
             data-aos-once="true"
           >
