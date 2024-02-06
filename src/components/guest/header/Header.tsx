@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa6";
 import SideNav from "../../../components/guest/sidenav/SideNav";
 import CV from "../../../assets/NIÑO-CV-NOVA-2024.pdf";
-import MyLogo from "../../../assets/images/img/MYLOGO3.png"
+import MyLogo from "../../../assets/images/img/MYLOGO3.png";
 
 import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/montserrat/400.css"; // Specify weight
@@ -45,13 +45,25 @@ const Header = () => {
     <>
       <header className="absolute top-0 z-50 w-full font-[Montserrat] font-[500]">
         <nav className="flex justify-start lg:justify-evenly items-center p-5 uppercase font-semibold bg-[#00ADB5] text-[#EEEEEE] font-Inter h-[100px]">
-          <div className="flex justify-start">
+          <div
+            className="flex justify-start"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+          >
             <Link to="/jerico-nino-portfolio/">
-              <img src={MyLogo} alt="Logo" className="w-[200px]"/>
+              <img src={MyLogo} alt="Logo" className="w-[200px]" />
               {/* <h1 className="text-[2.5rem] font-boldtext-[#EEEEEE] hover:text-[#393E46] duration-500 ease-in-out">{"<J/>"}</h1> */}
             </Link>
           </div>
-          <div className="hidden lg:flex gap-[20px]">
+          <div
+            className="hidden lg:flex gap-[20px]"
+            data-aos="fade-down"
+            data-aos-duration="3000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+          >
             <Link
               to="/jerico-nino-portfolio/"
               className="text-base hover:text-[#393E46] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
@@ -72,7 +84,6 @@ const Header = () => {
             </Link>
             <Link
               to="/jerico-nino-portfolio/about"
-            
               className="text-base hover:text-[#393E46] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
             >
               About
@@ -81,7 +92,6 @@ const Header = () => {
               to={CV}
               target="_blank"
               rel="noopener noreferrer"
-            
               className="text-base hover:text-[#393E46] transition duration-300 ease-in-out hover:ease-in-out hover:-translate-y-1"
             >
               CV
