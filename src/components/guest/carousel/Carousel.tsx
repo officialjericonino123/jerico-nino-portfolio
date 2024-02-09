@@ -82,10 +82,10 @@ const ImageSlider = () => {
         <div className="relative py-[20px] xl:p-[20px]">
           <div
             className="my-[50px] flex justify-center items-center"
-            // data-aos="fade-left"
-            // data-aos-duration="2000"
-            // data-aos-easing="ease-in-out"
-            // data-aos-once="true"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
           >
             <img
               src={Me}
