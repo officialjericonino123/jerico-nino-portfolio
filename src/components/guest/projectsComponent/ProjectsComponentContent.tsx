@@ -9,25 +9,25 @@ const ProjectsComponentContent: React.FC = () => {
     <>
       <div className="lg:mt-[50px] lg:mx-[100px] mx-[20px]">
         <Link to="/jerico-nino-portfolio/">
-          <div className="w-full flex text-[16px] md:text-[1.1rem] items-center gap-[10px] font-Inter font-bold uppercase text-[#346d70] hover:text-[#00ADB5] duration-500 cursor-pointer">
+          <div className="w-full flex text-[16px] md:text-[1.1rem] items-center gap-[10px] font-Poppins font-bold uppercase text-[#6E06F2] hover:text-[#24262f] duration-500 cursor-pointer">
             <FaArrowLeft />
             <span>Go Back</span>
           </div>
         </Link>
 
-        <div className="text-center font-Inter my-[20px]">
-          <span className="text-[2rem] lg:text-[3rem] font-[800] text-[#00ADB5] uppercase">
-            My Projects
+        <div className="text-center lg:text-start font-Poppins m-[20px] lower tracking-tight">
+          <span className="text-[2.5rem] lg:text-[4rem] font-[800] text-[#24262f]">
+            My <span className="text-[#6E06F2]">Projects.</span>
           </span>
         </div>
 
-        <div className="my-[20px] p-[20px]">
+        <div className="my-[20px] p-[20px] font-Poppins">
           {/* HUGOTERO CLOTHING */}
           <div className="relative">
             <img
               src={HgtrProject}
               alt=""
-              className="shadow-2xl w-full 2xl:w-[1000px]"
+              className="shadow-2xl w-full 2xl:w-[1000px] my-[20px]"
               data-aos="fade-right"
               data-aos-duration="2000"
               data-aos-easing="ease-in-out"
@@ -40,16 +40,16 @@ const ProjectsComponentContent: React.FC = () => {
               data-aos-easing="ease-in-out"
               data-aos-once="true"
             >
-              <div className="flex flex-col justify-center items-center 2xl:justify-end 2xl:items-end 2xl:text-center font-Inter">
-                <span className="font-[500] text-[1.5rem] 2xl:text-[1.2rem] text-[#393E46]">
+              <div className="flex flex-col justify-center items-center 2xl:justify-end 2xl:items-end 2xl:text-center">
+                <span className="font-[500] text-[1.2rem] md:text-[2rem] 2xl:text-[1.2rem] text-[#24262f]">
                   E-Commerce Clothing Store
                 </span>
-                <span className="font-[800] uppercase text-[1.5rem] lg:text-[2rem] 2xl:text-[2.5rem] text-[#00ADB5]">
+                <span className="font-[800] uppercase text-[1.5rem] md:text-[2rem] lg:text-[3rem] 2xl:text-[3.5rem] text-[#6E06F2]">
                   HUGOTERO CLOTHING
                 </span>
               </div>
-              <div className="drop-shadow-xl p-[20px] bg-white text-[#393E46]">
-                <span className="text-[1rem] font-Inter">
+              <div className="drop-shadow-xl p-[20px] bg-white text-[#24262f]">
+                <span className="text-[1rem]">
                   I have developed a full-stack web application utilizing
                   Laravel, React with TypeScript, and Tailwind CSS from the
                   ground up. The backend is seamlessly integrated with a MySQL
@@ -63,23 +63,23 @@ const ProjectsComponentContent: React.FC = () => {
                   interacting with the available products.
                 </span>
               </div>
-              <div className="flex gap-[10px] justify-end text-center my-[10px] text-[#00ADB5] uppercase font-bold font-Inter text-[.6rem]">
-                <div className=" bg-[#00ADB5] bg-opacity-20 p-[10px] rounded-lg">
+              <div className="flex gap-[10px] justify-end text-center my-[10px] text-[#6E06F2] uppercase font-bold text-[.6rem]">
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
                   React
                 </div>
-                <div className=" bg-[#00ADB5] bg-opacity-20 p-[10px] rounded-lg">
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
                   Tailwind
                 </div>
-                <div className=" bg-[#00ADB5] bg-opacity-20 p-[10px] rounded-lg">
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
                   Laravel
                 </div>
-                <div className=" bg-[#00ADB5] bg-opacity-20 p-[10px] rounded-lg">
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
                   TypeScript
                 </div>
               </div>
               <div className="flex justify-end 2xl:justify-end mt-[20px]">
                 <Link to="https://hugoteroclothing.com/" target="blank">
-                  <button className="flex items-center justify-center gap-[10px] border-2 w-full 2xl:w-[200px] font-[500] p-[10px] font-Oswald uppercase text-[.8rem] border-[#00ADB5] text-[#00ADB5] hover:bg-[#00ADB5] active:bg-[#ac2020] hover:text-white duration-700">
+                  <button className="flex items-center justify-center gap-[10px] border-2 w-full 2xl:w-[200px] font-[500] p-[10px] font-Oswald uppercase text-[.8rem] border-[#6E06F2] text-[#6E06F2] hover:bg-[#6E06F2] active:bg-[#ac2020] hover:text-white duration-700">
                     Visit Project <FaLink />
                   </button>
                 </Link>
@@ -108,16 +108,16 @@ const ProjectsComponentContent: React.FC = () => {
               data-aos-easing="ease-in-out"
               data-aos-once="true"
             >
-              <div className="flex flex-col justify-center items-center 2xl:items-start 2xl:text-center font-Inter">
-                <span className="font-[500] text-[1.5rem] 2xl:text-[1.2rem] text-[#393E46]">
+              <div className="flex flex-col justify-center items-center 2xl:items-start 2xl:text-center">
+                <span className="font-[500] text-[1.2rem] md:text-[2rem] 2xl:text-[1.2rem] text-[#24262f]">
                   E-Commerce Bag Store
                 </span>
-                <span className="font-[800] uppercase text-[1.5rem] lg:text-[2rem] 2xl:text-[2.5rem] text-[#00ADB5]">
+                <span className="font-[800] uppercase text-[1.5rem] md:text-[2rem] lg:text-[3rem] 2xl:text-[3.5rem] text-[#6E06F2]">
                   Kittly
                 </span>
               </div>
-              <div className="drop-shadow-xl p-[20px] bg-white text-[#393E46]">
-                <span className="text-[1rem] font-Inter">
+              <div className="drop-shadow-xl p-[20px] bg-white text-[#24262f]">
+                <span className="text-[1rem]">
                   I have developed a full-stack web application utilizing
                   Laravel, React with TypeScript, and Tailwind CSS from the
                   ground up. The backend is seamlessly integrated with a MySQL
@@ -131,23 +131,23 @@ const ProjectsComponentContent: React.FC = () => {
                   interacting with the available products.
                 </span>
               </div>
-              <div className="flex gap-[10px] justify-start text-center my-[10px] text-[#00ADB5] uppercase font-bold font-Inter text-[.6rem]">
-                <div className=" bg-[#00ADB5] bg-opacity-20 p-[10px] rounded-lg">
+              <div className="flex gap-[10px] justify-start text-center my-[10px] text-[#6E06F2] uppercase font-bold text-[.6rem]">
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
                   React
                 </div>
-                <div className=" bg-[#00ADB5] bg-opacity-20 p-[10px] rounded-lg">
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
                   Tailwind
                 </div>
-                <div className=" bg-[#00ADB5] bg-opacity-20 p-[10px] rounded-lg">
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
                   Laravel
                 </div>
-                <div className=" bg-[#00ADB5] bg-opacity-20 p-[10px] rounded-lg">
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
                   TypeScript
                 </div>
               </div>
               <div className="flex justify-start 2xl:justify-start mt-[20px]">
                 <Link to="https://kittlyofficial.com/" target="blank">
-                  <button className="flex items-center justify-center gap-[10px] border-2 w-full 2xl:w-[200px] font-[500] p-[10px] font-Oswald uppercase text-[.8rem] border-[#00ADB5] text-[#00ADB5] hover:bg-[#00ADB5] active:bg-[#ac2020] hover:text-white duration-700">
+                  <button className="flex items-center justify-center gap-[10px] border-2 w-full 2xl:w-[200px] font-[500] p-[10px] font-Oswald uppercase text-[.8rem] border-[#6E06F2] text-[#6E06F2] hover:bg-[#6E06F2] active:bg-[#ac2020] hover:text-white duration-700">
                     Visit Project <FaLink />
                   </button>
                 </Link>
@@ -160,7 +160,7 @@ const ProjectsComponentContent: React.FC = () => {
             <img
               src={LCProject}
               alt=""
-              className="shadow-2xl w-full 2xl:w-[1000px] my-[20px] lg:my-[200px]"
+              className="shadow-2xl w-full 2xl:w-[1000px] my-[20px] 2xl:my-[200px]"
               data-aos="fade-right"
               data-aos-duration="2000"
               data-aos-easing="ease-in-out"
@@ -173,16 +173,16 @@ const ProjectsComponentContent: React.FC = () => {
               data-aos-easing="ease-in-out"
               data-aos-once="true"
             >
-              <div className="flex flex-col justify-center items-center 2xl:justify-end 2xl:items-end 2xl:text-center font-Inter">
-                <span className="font-[500] text-[1.5rem] 2xl:text-[1.2rem] text-[#393E46]">
+              <div className="flex flex-col justify-center items-center 2xl:justify-end 2xl:items-end 2xl:text-center">
+                <span className="font-[500] text-[1.2rem] md:text-[2rem] 2xl:text-[1.2rem] text-[#24262f]">
                   Static Company Website
                 </span>
-                <span className="font-[800] uppercase text-[1.5rem] lg:text-[2rem] 2xl:text-[2.5rem] text-[#00ADB5]">
+                <span className="font-[800] uppercase text-[1.2rem] sm:text-[1.8rem] md:text-[2rem] lg:text-[3rem] 2xl:text-[3.5rem] text-[#6E06F2]">
                   L&C Group of Companies
                 </span>
               </div>
               <div className="drop-shadow-xl p-[20px] bg-white text-[#393E46]">
-                <span className="text-[1rem] font-Inter">
+                <span className="text-[1rem]">
                   I'm excited to share my first static company website! I used
                   React, TypeScript, and Tailwind CSS to create a cool and
                   responsive design. It was a bit challenging, but I enjoyed
@@ -192,20 +192,20 @@ const ProjectsComponentContent: React.FC = () => {
                   even better digital experiences in the future!
                 </span>
               </div>
-              <div className="flex gap-[10px] justify-end text-center my-[10px] text-[#00ADB5] uppercase font-bold font-Inter text-[.6rem]">
-                <div className=" bg-[#00ADB5] bg-opacity-20 p-[10px] rounded-lg">
+              <div className="flex gap-[10px] justify-end text-center my-[10px] text-[#6E06F2] uppercase font-bold text-[.6rem]">
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
                   React
                 </div>
-                <div className=" bg-[#00ADB5] bg-opacity-20 p-[10px] rounded-lg">
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
                   Tailwind
                 </div>
-                <div className=" bg-[#00ADB5] bg-opacity-20 p-[10px] rounded-lg">
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
                   TypeScript
                 </div>
               </div>
-              <div className="flex justify-end 2xl:justify-end mt-[20px]">
+              <div className="flex 2xl:justify-end mt-[20px]">
                 <Link to="https://lcgroupofcompanies.com/" target="blank">
-                  <button className="flex items-center justify-center gap-[10px] border-2 w-full 2xl:w-[200px] font-[500] p-[10px] font-Oswald uppercase text-[.8rem] border-[#00ADB5] text-[#00ADB5] hover:bg-[#00ADB5] active:bg-[#ac2020] hover:text-white duration-700">
+                  <button className="flex items-center justify-center gap-[10px] border-2 w-full 2xl:w-[200px] font-[500] p-[10px] font-Oswald uppercase text-[.8rem] border-[#6E06F2] text-[#6E06F2] hover:bg-[#6E06F2] active:bg-[#ac2020] hover:text-white duration-700">
                     Visit Project <FaLink />
                   </button>
                 </Link>

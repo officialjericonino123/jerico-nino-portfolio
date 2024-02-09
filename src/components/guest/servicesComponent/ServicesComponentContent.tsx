@@ -12,16 +12,16 @@ const ServicesComponentContent: React.FC = () => {
     <>
       <div className="bg-[#]">
         <div
-          className="text-center mx-[20px] xl:mx-[500px] font-Inter my-[50px]"
+          className="text-center mx-[20px] xl:mx-[500px] font-Poppins my-[50px]"
           data-aos="fade-down"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
           data-aos-once="true"
         >
-          <h1 className="text-[2.5rem] lg:text-[3.5rem] xl:text-[4rem] font-[800] text-[#00ADB5]">
+          <h1 className="text-[2.5rem] lg:text-[3.5rem] xl:text-[4rem] font-[800] text-[#6E06F2]">
             What I do?
           </h1>
-          <p className="text-[#287074] font-[500]">
+          <p className="text-[#6E06F2] font-[500]">
             In my capacity as a front-end web developer, I specialize in the
             meticulous creation of visually compelling and user-friendly
             websites, meticulously designed to deliver exceptional user
@@ -35,16 +35,16 @@ const ServicesComponentContent: React.FC = () => {
           data-aos-easing="ease-in-out"
           data-aos-once="true"
         >
-          <div className="flex flex-col justify-center items-center w-full p-[30px] font-Inter border-[2px] border-[#393E46] gap-[30px] opacity-90 rounded-md hover:-translate-y-6 duration-300">
-            <div className="text-[#287074] text-[2rem] md:text-[4rem]">
+          <div className="flex flex-col justify-center items-center w-full p-[30px] font-Poppins border-[2px] border-[#6E06F2] gap-[30px] opacity-90 rounded-md hover:-translate-y-6 duration-300">
+            <div className="text-[#6E06F2] text-[2rem] md:text-[4rem]">
               <FaPencil />
             </div>
-            <div className="text-center text-[#00ADB5]">
+            <div className="text-center text-[#6E06F2]">
               <span className="uppercase font-[700] md:text-[1.5rem]">
                 Creative and Responsive Design
               </span>
             </div>
-            <div className="text-center text-[#287074]">
+            <div className="text-center text-[#6E06F2]">
               <span>
                 I specialize in the development of responsive designs that
                 consistently uphold their visual allure and functional integrity
@@ -58,16 +58,16 @@ const ServicesComponentContent: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center w-full p-[30px] font-Inter border-[2px] border-[#393E46] gap-[30px] opacity-90 rounded-md hover:-translate-y-6 duration-300">
-            <div className="text-[#287074] text-[2rem] md:text-[4rem]">
+          <div className="flex flex-col justify-center items-center w-full p-[30px] font-Poppins border-[2px] border-[#6E06F2] gap-[30px] opacity-90 rounded-md hover:-translate-y-6 duration-300">
+            <div className="text-[#6E06F2] text-[2rem] md:text-[4rem]">
               <FaCode />
             </div>
-            <div className="text-center text-[#00ADB5]">
+            <div className="text-center text-[#6E06F2]">
               <span className="uppercase font-[700] md:text-[1.5rem]">
                 Clean Code
               </span>
             </div>
-            <div className="text-center text-[#287074]">
+            <div className="text-center text-[#6E06F2]">
               <span>
                 I'm really good at writing clean code. It means I focus on
                 making sure the code is neat, easy to read, and follows best
@@ -78,16 +78,16 @@ const ServicesComponentContent: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center w-full p-[30px] font-Inter border-[2px] border-[#393E46] gap-[30px] opacity-90 rounded-md hover:-translate-y-6 duration-300">
-            <div className="text-[#287074] text-[2rem] md:text-[4rem]">
+          <div className="flex flex-col justify-center items-center w-full p-[30px] font-Poppins border-[2px] border-[#6E06F2] gap-[30px] opacity-90 rounded-md hover:-translate-y-6 duration-300">
+            <div className="text-[#6E06F2] text-[2rem] md:text-[4rem]">
               <FaToolbox />
             </div>
-            <div className="text-center text-[#00ADB5]">
+            <div className="text-center text-[#6E06F2]">
               <span className="uppercase font-[700] md:text-[1.5rem]">
                 User Experience
               </span>
             </div>
-            <div className="text-center text-[#287074]">
+            <div className="text-center text-[#6E06F2]">
               <span>
                 I always maintain high coding standards in my projects to ensure
                 an outstanding user experience. This means I focus on creating
@@ -99,16 +99,16 @@ const ServicesComponentContent: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center w-full p-[30px] font-Inter border-[2px] border-[#393E46] gap-[30px] opacity-90 rounded-md hover:-translate-y-6 duration-300">
-            <div className="text-[#287074] text-[2rem] md:text-[4rem]">
+          <div className="flex flex-col justify-center items-center w-full p-[30px] font-Poppins border-[2px] border-[#6E06F2] gap-[30px] opacity-90 rounded-md hover:-translate-y-6 duration-300">
+            <div className="text-[#6E06F2] text-[2rem] md:text-[4rem]">
               <FaThumbsUp />
             </div>
-            <div className="text-center text-[#00ADB5]">
+            <div className="text-center text-[#6E06F2]">
               <span className="uppercase font-[700] md:text-[1.5rem]">
                 Fast Support
               </span>
             </div>
-            <div className="text-center text-[#287074]">
+            <div className="text-center text-[#6E06F2]">
               <span>
                 I have a strong technical support system in place to help my
                 clients quickly and effectively. Our dedicated team is
@@ -121,16 +121,16 @@ const ServicesComponentContent: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center w-full p-[30px] font-Inter border-[2px] border-[#393E46] gap-[30px] opacity-90 rounded-md hover:-translate-y-6 duration-300">
-            <div className="text-[#287074] text-[2rem] md:text-[4rem]">
+          <div className="flex flex-col justify-center items-center w-full p-[30px] font-Poppins border-[2px] border-[#6E06F2] gap-[30px] opacity-90 rounded-md hover:-translate-y-6 duration-300">
+            <div className="text-[#6E06F2] text-[2rem] md:text-[4rem]">
               <FaScrewdriverWrench />
             </div>
-            <div className="text-center text-[#00ADB5]">
+            <div className="text-center text-[#6E06F2]">
               <span className="uppercase font-[700] md:text-[1.5rem]">
                 Hardware troubleshooting
               </span>
             </div>
-            <div className="text-center text-[#287074]">
+            <div className="text-center text-[#6E06F2]">
               <span>
                 I have extensive computer repair skills that can effectively
                 tackle various complex technical issues. These skills have been
@@ -144,16 +144,16 @@ const ServicesComponentContent: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center w-full p-[30px] font-Inter border-[2px] border-[#393E46] gap-[30px] opacity-90 rounded-md hover:-translate-y-6 duration-300">
-            <div className="text-[#287074] text-[2rem] md:text-[4rem]">
+          <div className="flex flex-col justify-center items-center w-full p-[30px] font-Poppins border-[2px] border-[#6E06F2] gap-[30px] opacity-90 rounded-md hover:-translate-y-6 duration-300">
+            <div className="text-[#6E06F2] text-[2rem] md:text-[4rem]">
               <FaFileShield />
             </div>
-            <div className="text-center text-[#00ADB5]">
+            <div className="text-center text-[#6E06F2]">
               <span className="uppercase font-[700] md:text-[1.5rem]">
                 Data Security
               </span>
             </div>
-            <div className="text-center text-[#287074]">
+            <div className="text-center text-[#6E06F2]">
               <span>
                 I possess strong data security skills that can effectively
                 protect our clients' important information. My expertise

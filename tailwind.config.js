@@ -8,7 +8,8 @@ export default {
       RacingSans: ["Racing Sans One", "cursive"],
       AlumniSans: ["Alumni Sans", "sans-serif"],
       Inter: ["Inter", "sans-serif"],
+      Poppins: ["Poppins", "sans-serif"],
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

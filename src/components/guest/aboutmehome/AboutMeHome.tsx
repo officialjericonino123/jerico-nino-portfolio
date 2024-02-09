@@ -17,7 +17,7 @@ import { SiMysql } from "react-icons/si";
 const AboutMeHome = () => {
   return (
     <>
-      <div className="bg-[#00ADB5]">
+      <div className="bg-[#6E06F2]">
         <div className="flex flex-col lg:flex-row p-[20px] lg:p-[50px] lg:mx-[100px]">
           <div className="lg:w-[40%] flex justify-center items-center xl:p-[50px]">
             <img

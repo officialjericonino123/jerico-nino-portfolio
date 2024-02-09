@@ -6,7 +6,7 @@ const ClientLayout = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className="overflow-hidden bg-white">
         <Outlet />
       </main>
 

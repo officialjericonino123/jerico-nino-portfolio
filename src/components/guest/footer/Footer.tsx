@@ -9,7 +9,7 @@ import {
   FaLocationDot,
 } from "react-icons/fa6";
 import CV from "../../../assets/NIÑO-CV-NOVA-2024.pdf";
-import MyLogo from "../../../assets/images/img/MYLOGO3.png";
+import MyLogo from "../../../assets/images/img/MYLOGO2.png";
 
 import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/montserrat/400.css"; // Specify weight
@@ -18,8 +18,8 @@ import "@fontsource/montserrat/400-italic.css"; // Specify weight and style
 const Footer: React.FC = () => {
   return (
     <>
-      <footer className="mt-[50px]">
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full bg-[#00ADB5] font-Inter">
+      <footer>
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full bg-[#6E06F2] font-Poppins">
           {/* LEFT BOX */}
           <div
             className="flex flex-col lg:items-center p-[20px]"
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
               <div>
                 <Link
                   to="/jerico-nino-portfolio/projects"
-                  className="hover:text-[#393E46] hover:scale-[1.1] duration-300 uppercase"
+                  className="hover:scale-[1.1] duration-300 uppercase"
                 >
                   Home
                 </Link>
@@ -52,19 +52,19 @@ const Footer: React.FC = () => {
 
               <Link
                 to="/jerico-nino-portfolio/projects"
-                className="hover:text-[#393E46] hover:scale-[1.1] duration-300 uppercase"
+                className="hover:scale-[1.1] duration-300 uppercase"
               >
                 Projects
               </Link>
               <Link
                 to="/jerico-nino-portfolio/services"
-                className="hover:text-[#393E46] hover:scale-[1.1] duration-300 uppercase"
+                className="hover:scale-[1.1] duration-300 uppercase"
               >
                 Services
               </Link>
               <Link
                 to="/jerico-nino-portfolio/about"
-                className="hover:text-[#393E46] hover:scale-[1.1] duration-300 uppercase"
+                className="hover:scale-[1.1] duration-300 uppercase"
               >
                 About{" "}
               </Link>
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
                 to={CV}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-[#393E46] hover:scale-[1.1] duration-300 uppercase"
+                className="hover:scale-[1.1] duration-300 uppercase"
               >
                 CV
               </Link>
@@ -185,12 +185,12 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-[30px] bg-[#393E46]">
-          <span className="flex justify-center text-white uppercase font-Inter">
+        <div className="flex justify-center items-center w-full h-[30px] bg-[#24262f]">
+          <span className="text-white uppercase font-Poppins">
             Designed and Developed By :{" "}
             <Link
               to="#"
-              className="decoration-solid hover:text-[#00ADB5] duration-300"
+              className="decoration-solid hover:text-[#6E06F2] duration-300"
             >
               Jerico U. Niño
             </Link>

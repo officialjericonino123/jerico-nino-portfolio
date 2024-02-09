@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const MyClients = () => {
   return (
     <>
-      <div className="mt-[50px] p-[50px] md:p-[100px] bg-[#00ADB5]">
+      <div className="my-[50px] p-[50px] md:p-[100px] bg-[#6E06F2]">
         <div
           className="flex flex-col text-[#EEEEEE] pt-[20px]"
           data-aos="fade-right"
@@ -15,7 +15,7 @@ const MyClients = () => {
           data-aos-easing="ease-in-out"
           data-aos-once="true"
         >
-          <span className="font-Inter text-[1.2rem] md:text-[2rem] lg:text-[2.5rem] font-[800] uppercase">
+          <span className="text-center xl:text-start font-Poppins text-[1.5rem] md:text-[2rem] lg:text-[3rem] font-[800] uppercase">
             My previous clients
           </span>
         </div>
