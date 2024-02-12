@@ -32,10 +32,10 @@ const ImageSlider = () => {
           <div className="text-wrap">
             <h1
               className="font-[700] text-[2.8rem] sm:text-[4rem] md:text-[5rem] tracking-tight text-[#24262f] leading-none"
-              // data-aos="fade-right"
-              // data-aos-duration="2000"
-              // data-aos-easing="ease-in-out"
-              // data-aos-once="true"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
             >
               <div>
                 <span className="text-[#6E06F2]">Front</span>end <br />
@@ -65,7 +65,7 @@ const ImageSlider = () => {
             data-aos-once="true"
           >
             <Link to={CV} target="_blank" rel="noopener noreferrer">
-              <button className="border-[1px] p-[10px] w-full lg:w-[200px] uppercase rounded text-[#6E06F2] border-[#6E06F2] hover:text-white hover:bg-[#6E06F2] hover:border-[#6E06F2] active:bg-[#393E46] active:border-[#393E46] animate-bounce hover:-translate-y-1 duration-500 ease-in-out">
+              <button className="border-[1px] p-[10px] w-full lg:w-[200px] uppercase rounded text-[#6E06F2] border-[#6E06F2] hover:text-white hover:bg-[#6E06F2] hover:border-[#6E06F2] active:bg-[#393E46] active:border-[#393E46] hover:-translate-y-1 duration-500 ease-in-out">
                 Resume
               </button>
             </Link>
@@ -93,7 +93,7 @@ const ImageSlider = () => {
               className="w-[340px] h-[340px] lg:w-[440px] lg:h-[440px] border-[#6E06F2] border-2  p-[20px] rounded-full"
             />
             <div className="hidden xl:flex absolute right-0 top-0">
-              <img src={SVG2} alt="" className="w-[150px] md:w-[220px] xl:w-[250px]" />
+              <img src={SVG2} alt="" className="w-[150px] md:w-[220px] xl:w-[250px] animate-bounce animate-delayed-bounce" />
             </div>
           </div>
         </div>
