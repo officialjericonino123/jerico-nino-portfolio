@@ -2,6 +2,7 @@ import { FaArrowLeft, FaLink } from "react-icons/fa6";
 import HgtrProject from "../../../assets/images/img/Projects/HgtrProject.png";
 import KittlyProject from "../../../assets/images/img/Projects/KittlyProject.png";
 import LCProject from "../../../assets/images/img/Projects/LCProject.png";
+import YoutubeClone from "../../../assets/images/img/Projects/YoutubeClone.png";
 import { Link } from "react-router-dom";
 
 const ProjectsComponentContent: React.FC = () => {
@@ -205,6 +206,70 @@ const ProjectsComponentContent: React.FC = () => {
               </div>
               <div className="flex 2xl:justify-end mt-[20px]">
                 <Link to="https://lcgroupofcompanies.com/" target="blank">
+                  <button className="flex items-center justify-center gap-[10px] border-2 w-full 2xl:w-[200px] font-[500] p-[10px] font-Oswald uppercase text-[.8rem] border-[#6E06F2] text-[#6E06F2] hover:bg-[#6E06F2] active:bg-[#ac2020] hover:text-white duration-700">
+                    Visit Project <FaLink />
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* YOUTUBE CLONE */}
+          <div className="relative">
+            <div className="flex 2xl:justify-end 2xl:items-end my-[20px] lg:my-[300px]">
+              <img
+                src={YoutubeClone}
+                alt=""
+                className="shadow-2xl w-full 2xl:w-[1000px]"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-out"
+                data-aos-once="true"
+              />
+            </div>
+
+            <div
+              className="2xl:absolute w-full 2xl:w-[800px] 2xl:top-[60%] 2xl:left-[0]"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-easing="ease-in-out"
+              data-aos-once="true"
+            >
+              <div className="flex flex-col justify-center items-center 2xl:items-start 2xl:text-center">
+                <span className="font-[500] text-[1.2rem] md:text-[2rem] 2xl:text-[1.2rem] text-[#24262f]">
+                  free video sharing website
+                </span>
+                <span className="font-[800] uppercase text-[1.5rem] md:text-[2rem] lg:text-[3rem] 2xl:text-[3.5rem] text-[#6E06F2]">
+                  YouTube Clone
+                </span>
+              </div>
+              <div className="drop-shadow-xl p-[20px] bg-white text-[#24262f]">
+                <span className="text-[1rem]">
+                  I developed a comprehensive clone application of YouTube using
+                  the latest technologies, including React, TypeScript, and
+                  Tailwind CSS, leveraging their robust features and
+                  functionalities to replicate the renowned video-sharing
+                  platform's user interface, interactions, and functionalities
+                  with meticulous attention to detail and a focus on delivering
+                  an immersive and seamless user experience
+                </span>
+              </div>
+              <div className="flex gap-[10px] justify-start text-center my-[10px] text-[#6E06F2] uppercase font-bold text-[.6rem]">
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
+                  React
+                </div>
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
+                  Tailwind
+                </div>
+                <div className=" bg-[#6E06F2] bg-opacity-20 p-[10px] rounded-lg">
+                  TypeScript
+                </div>
+              </div>
+              <div className="flex justify-start 2xl:justify-start mt-[20px]">
+                <Link
+                  to="https://react-youtube-clone-ruby.vercel.app"
+                  target="blank"
+                >
                   <button className="flex items-center justify-center gap-[10px] border-2 w-full 2xl:w-[200px] font-[500] p-[10px] font-Oswald uppercase text-[.8rem] border-[#6E06F2] text-[#6E06F2] hover:bg-[#6E06F2] active:bg-[#ac2020] hover:text-white duration-700">
                     Visit Project <FaLink />
                   </button>
