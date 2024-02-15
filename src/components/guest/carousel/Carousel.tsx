@@ -9,7 +9,7 @@ import SVG2 from "../../../assets/images/img/SVG2.png";
 const ImageSlider = () => {
   return (
     <div
-      className="relative flex flex-col lg:flex-row w-full h-[1000px] justify-evenly items-center"
+      className="relative flex flex-col lg:flex-row w-full h-[950px] justify-evenly items-center"
       style={{
         // backgroundImage: `url(${heroBg})`,
         backgroundSize: "cover",
@@ -17,7 +17,7 @@ const ImageSlider = () => {
         backgroundPosition: "center center",
       }}
     >
-      <div className="relative grid xl:grid-cols-2 justify-center xl:justify-start w-full p-[20px] font-[700] mt-[150px] mx-[50px] 2xl:mx-[150px] font-Poppins">
+      <div className="relative grid xl:grid-cols-2 xl:justify-start w-full font-[700] mt-[20px] lg:mt-[350px] 2xl:mt-[50px] mx-[50px] 2xl:mx-[150px] font-Poppins md:max-w-3xl xl:max-w-6xl px-7 md:px-0 ">
         <div>
           <span
             className="font-[500] uppercase text-[1.3rem] lg:text-[1.5rem] text-[#24262f]"
@@ -31,7 +31,7 @@ const ImageSlider = () => {
 
           <div className="text-wrap">
             <h1
-              className="font-[700] text-[2.8rem] sm:text-[4rem] md:text-[5rem] tracking-tight text-[#24262f] leading-none"
+              className="font-[700] text-[2.8rem] sm:text-[4rem] md:text-[4.5rem] tracking-tight text-[#24262f] leading-none"
               data-aos="fade-right"
               data-aos-duration="2000"
               data-aos-easing="ease-in-out"
@@ -81,7 +81,7 @@ const ImageSlider = () => {
         </div>
         <div className="relative py-[20px] xl:p-[20px]">
           <div
-            className="my-[50px] flex justify-center items-center"
+            className="my-[50px] hidden xl:flex justify-center items-center"
             data-aos="fade-left"
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"

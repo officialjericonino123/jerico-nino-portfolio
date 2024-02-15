@@ -44,7 +44,7 @@ const Header = () => {
   return (
     <>
       <header className="absolute top-0 z-50 w-full font-Poppins font-[500]">
-        <nav className="flex justify-start lg:justify-evenly border-[#6E06F2]-[1px] items-center p-5 uppercase font-semibold bg-white text-[#24262f] h-[100px]">
+        <nav className="mx-auto md:max-w-3xl xl:max-w-6xl px-7 md:px-0 flex lg:justify-between border-[#6E06F2]-[1px] items-center uppercase font-semibold bg-white text-[#24262f] h-[100px]">
           <div
             className="flex justify-start"
             data-aos="fade-down"
@@ -101,7 +101,7 @@ const Header = () => {
           {/* hamburger */}
           <button
             onClick={HamburgerToggle}
-            className="absolute top-[33px] right-[30px] lg:hidden text-[1.5rem] md:text-[#EEEEEE] hover:text-[#6E06F2] duration-1000 ease-in-out hover:animate-bounce"
+            className="absolute top-[33px] right-[30px] lg:hidden text-[1.5rem] text-[##141617] hover:text-[#6E06F2] duration-1000 ease-in-out hover:animate-bounce"
           >
             <FaBars />
           </button>

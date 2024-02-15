@@ -9,18 +9,18 @@ const MyClients = () => {
     <>
       <div className="my-[50px] p-[50px] md:p-[100px] bg-[#6E06F2]">
         <div
-          className="flex flex-col text-[#EEEEEE] pt-[20px]"
+          className="flex flex-col text-[#EEEEEE] mx-auto md:max-w-3xl xl:max-w-6xl px-7 md:px-0"
           data-aos="fade-right"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
           data-aos-once="true"
         >
-          <span className="text-center xl:text-start font-Poppins text-[1.5rem] md:text-[2rem] lg:text-[3rem] font-[800] uppercase">
+          <span className="text-center xl:text-start font-Poppins text-[1.5rem] md:text-[2rem] font-[800] uppercase">
             My previous clients
           </span>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center items-center md:justify-evenly md:items-center gap-[30px] mt-[50px] text-[#EEEEEE]">
+        <div className="flex flex-col md:flex-row justify-center items-center md:justify-evenly md:items-center gap-[30px] mt-[50px] text-[#EEEEEE] mx-auto md:max-w-3xl xl:max-w-6xl px-7 md:px-0">
           <Link to="https://hugoteroclothing.com/" target="blank">
             <div
               className="flex flex-col justify-center items-center hover:-translate-y-6 duration-300 cursor-pointer"

@@ -10,9 +10,9 @@ import {
 const ServicesComponentContent: React.FC = () => {
   return (
     <>
-      <div className="bg-[#]">
+      <div>
         <div
-          className="text-center mx-[20px] xl:mx-[500px] font-Poppins my-[50px]"
+          className="text-center font-Poppins mx-auto md:max-w-3xl xl:max-w-6xl px-7 md:px-0 my-[50px]"
           data-aos="fade-down"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
@@ -29,7 +29,7 @@ const ServicesComponentContent: React.FC = () => {
           </p>
         </div>
         <div
-          className="grid md:grid-cols-2 2xl:grid-cols-3 mx-[20px] lg:mx-[200px] h-auto py-[20px] gap-[30px]"
+          className="grid md:grid-cols-2 2xl:grid-cols-3 mx-auto md:max-w-3xl xl:max-w-6xl px-7 md:px-0 gap-[30px]"
           data-aos="fade-up"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"

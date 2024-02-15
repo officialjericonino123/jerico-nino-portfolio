@@ -4,19 +4,19 @@ const AboutComponent: React.FC = () => {
   return (
     <>
       <div>
-        <div className="grid xl:grid-cols-2 gap-[10px] mx-[20px] 2xl:mx-[200px]">
+        <div className="grid xl:grid-cols-2 gap-[10px] mx-auto md:max-w-3xl xl:max-w-6xl px-7 md:px-0 ">
           <div
-            className="w-full flex flex-col text-start my-[100px] lg:my-[100px] text-[#24262f] font-Poppins"
+            className="w-full flex flex-col text-start my-[60px] text-[#24262f] font-Poppins"
             data-aos="fade-right"
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
             data-aos-once="true"
           >
             <div>
-              <span className="text-[4rem] font-[800] text-[#6E06F2]">About me</span>
+              <span className="text-[3.5rem] font-[800] text-[#6E06F2]">About me</span>
             </div>
-            <div className="mt-[50px] text-[1rem] lg:text-[1.2rem]">
-              <span className="font-[400] text-start">
+            <div className="mt-[50px] text-[.9rem] lg:text-[1.2rem]">
+              <p className="font-[400] text-start">
                 Hello, I'm Jerico U. Niño, a front-end developer who specializes
                 in creating user-friendly and visually appealing websites. I use
                 <span className="text-[#6E06F2] uppercase font-[800] p-[5px]">
@@ -50,7 +50,7 @@ const AboutComponent: React.FC = () => {
                 </span>
                 and I'm excited to be part of the ever-evolving world of web
                 development.
-              </span>
+              </p>
             </div>
           </div>
 

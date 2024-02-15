@@ -18,7 +18,7 @@ const AboutMeHome = () => {
   return (
     <>
       <div className="bg-[#6E06F2]">
-        <div className="flex flex-col lg:flex-row p-[20px] lg:p-[50px] lg:mx-[100px]">
+        <div className="flex flex-col lg:flex-row p-[20px] mx-auto md:max-w-3xl xl:max-w-6xl px-7 md:px-0">
           <div className="lg:w-[40%] flex justify-center items-center xl:p-[50px]">
             <img
               src={gradimage}
