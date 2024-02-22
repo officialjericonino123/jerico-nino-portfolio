@@ -8,7 +8,7 @@ import ProjectsComponentContent from "../../components/guest/projectsComponent/P
 import ServicesComponentContent from "../../components/guest/servicesComponent/ServicesComponentContent";
 import PageLoader from "../../components/guest/pageloader/PageLoader";
 
-const Home = () => {
+const Home: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     // Check if data exists in localStorage
@@ -36,7 +36,7 @@ const Home = () => {
       document.body.classList.remove("overflow-hidden");
     }
   }, [isLoading]);
-  
+
   useEffect(() => {
     document.title = "Jerico Niño | Portfolio";
     AOS.init({
